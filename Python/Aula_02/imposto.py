@@ -27,7 +27,7 @@ print("INSS: ", Inss)
 Fgts = (11*salarioB)/100
 print("FGTS: ", Fgts)
 
-D = alorIR + Inss
+D = valorIR + Inss
 print("Descontos Totais: ", D)
 
 salarioL = salarioB - D
