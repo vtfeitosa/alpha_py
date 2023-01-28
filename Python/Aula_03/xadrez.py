@@ -1,3 +1,5 @@
+# Tabuleiro de Xadrez alternado com "x" número de espaços.
+
 sqrsNumber = int(input("Insira uma quantidade de espaços para o tabuleiro: "))
 lNum = 0
 
