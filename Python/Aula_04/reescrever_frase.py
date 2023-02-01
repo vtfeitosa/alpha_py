@@ -1,7 +1,7 @@
 # Reescrever frase sem o caractere do input
 
-l = input("Digite os caracteres que deseja remover da frase a seguir: ")
-sent = input("Digite uma frase: ")
+l = input("Digite os caracteres que deseja remover da frase a seguir: ").lower()
+sent = input("Digite uma frase: ").lower()
 finalSentence = ""
 
 for c in sent:
