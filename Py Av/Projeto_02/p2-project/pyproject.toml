@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "p2-project"
+version = "0.1.0"
+description = ""
+authors = ["vtfeitosa <vfmidia@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "p2_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
